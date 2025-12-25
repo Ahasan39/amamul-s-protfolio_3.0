@@ -2,6 +2,7 @@ import { ArrowDown, Download, ExternalLink } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
 import { HeroAnimatedSection, motion, FloatingElement } from '@/components/ui/motion';
+import { OptimizedImage } from '@/components/OptimizedImage';
 import profilePhoto from '@/assets/profile-photo.jpg';
 
 export const HeroSection = () => {
