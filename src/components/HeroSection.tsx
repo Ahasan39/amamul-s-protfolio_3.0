@@ -88,9 +88,19 @@ export const HeroSection = () => {
 
           {/* Sub-headline */}
           <HeroAnimatedSection delay={0.5}>
-            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-10 whitespace-nowrap overflow-x-auto px-4">
-              Laravel • React • Vue.js • REST APIs • MySQL • Full-Stack Development
-            </p>
+            <div className="flex flex-wrap justify-center items-center gap-x-3 gap-y-2 text-sm sm:text-base md:text-lg lg:text-xl text-muted-foreground max-w-4xl mx-auto mb-10 px-4">
+              <span>Laravel</span>
+              <span className="text-primary">•</span>
+              <span>React</span>
+              <span className="text-primary">•</span>
+              <span>Vue.js</span>
+              <span className="text-primary">•</span>
+              <span>REST APIs</span>
+              <span className="text-primary">���</span>
+              <span>MySQL</span>
+              <span className="text-primary">•</span>
+              <span>Full-Stack Development</span>
+            </div>
           </HeroAnimatedSection>
 
           {/* CTA Buttons */}
