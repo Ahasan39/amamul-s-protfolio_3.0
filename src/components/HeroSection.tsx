@@ -88,7 +88,7 @@ export const HeroSection = () => {
 
           {/* Sub-headline */}
           <HeroAnimatedSection delay={0.5}>
-            <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10">
+            <p className="text-base sm:text-lg md:text-xl text-muted-foreground max-w-4xl mx-auto mb-10 whitespace-nowrap overflow-x-auto px-4">
               Laravel • React • Vue.js • REST APIs • MySQL • Full-Stack Development
             </p>
           </HeroAnimatedSection>
