@@ -82,6 +82,7 @@ const skillCategories = [
 
 const techStack = [
   { name: 'Laravel', icon: Terminal, color: 'text-red-500', bgColor: 'bg-red-500/10' },
+  { name: 'React', icon: Layers, color: 'text-cyan-400', bgColor: 'bg-cyan-400/10' },
   { name: 'Vue.js', icon: Layers, color: 'text-green-500', bgColor: 'bg-green-500/10' },
   { name: 'MySQL', icon: Database, color: 'text-blue-500', bgColor: 'bg-blue-500/10' },
   { name: 'Git', icon: GitBranch, color: 'text-orange-500', bgColor: 'bg-orange-500/10' },
