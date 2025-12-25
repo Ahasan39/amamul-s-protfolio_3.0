@@ -17,7 +17,7 @@ const skillCategories = [
   {
     title: 'Frontend',
     icon: Palette,
-    skills: ['HTML5', 'CSS3', 'JavaScript', 'Bootstrap', 'Tailwind CSS', 'Vue.js'],
+    skills: ['HTML5', 'CSS3', 'JavaScript', 'React', 'Vue.js', 'Tailwind CSS'],
     color: 'from-blue-500 to-cyan-500',
   },
   {
@@ -42,6 +42,7 @@ const skillCategories = [
 
 const techStack = [
   { name: 'Laravel', icon: Terminal, color: 'text-red-500' },
+  { name: 'React', icon: Layers, color: 'text-cyan-400' },
   { name: 'Vue.js', icon: Layers, color: 'text-green-500' },
   { name: 'MySQL', icon: Database, color: 'text-blue-500' },
   { name: 'Git', icon: GitBranch, color: 'text-orange-500' },
