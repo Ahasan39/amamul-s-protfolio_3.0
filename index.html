@@ -7,13 +7,20 @@
     <meta name="theme-color" content="#0a0f1a" />
     <meta name="color-scheme" content="dark" />
     
-    <!-- Google Analytics GA4 -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-EQCYKCE1GE"></script>
+    <!-- Google Analytics GA4 - Deferred for performance -->
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-EQCYKCE1GE');
+      
+      // Load GA4 after page load
+      window.addEventListener('load', function() {
+        var script = document.createElement('script');
+        script.async = true;
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-EQCYKCE1GE';
+        document.head.appendChild(script);
+      });
     </script>
     
     <!-- SEO Meta Tags -->
