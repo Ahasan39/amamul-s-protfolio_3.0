@@ -39,10 +39,6 @@ export const HeroSection = () => {
                   src={profilePhoto}
                   alt="Amamul Ahasan"
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
-                  fetchpriority="high"
-                  loading="eager"
-                  width="128"
-                  height="128"
                 />
               </motion.div>
               <motion.div
