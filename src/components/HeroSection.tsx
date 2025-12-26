@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { HeroAnimatedSection, motion, FloatingElement } from '@/components/ui/motion';
 import { OptimizedImage } from '@/components/OptimizedImage';
 import profilePhoto from '@/assets/profile-photo.jpg';
+import profilePhotoWebP from '@/assets/profile-photo.webp';
 
 export const HeroSection = () => {
   return (
@@ -35,14 +36,17 @@ export const HeroSection = () => {
                 whileHover={{ scale: 1.05 }}
                 transition={{ duration: 0.3 }}
               >
-                <img
-                  src={profilePhoto}
-                  alt="Amamul Ahasan"
-                  className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
-                  fetchPriority="high"
-                  width={128}
-                  height={128}
-                />
+                <picture>
+                  <source srcSet={profilePhotoWebP} type="image/webp" />
+                  <img
+                    src={profilePhoto}
+                    alt="Amamul Ahasan"
+                    className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-110"
+                    fetchPriority="high"
+                    width={128}
+                    height={128}
+                  />
+                </picture>
               </motion.div>
               <motion.div
                 className="absolute -bottom-1 -right-1 w-8 h-8 rounded-full bg-primary flex items-center justify-center"
