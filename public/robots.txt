@@ -1,5 +1,5 @@
 # Robots.txt for Amamul Ahasan Portfolio
-# https://amamulahasan.com
+# https://ahasan39.github.io
 
 User-agent: Googlebot
 Allow: /
@@ -17,4 +17,4 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: https://amamulahasan.com/sitemap.xml
+Sitemap: https://ahasan39.github.io/sitemap.xml
